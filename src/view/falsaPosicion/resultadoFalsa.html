@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de Falsa Posicion</title>
+    <link rel="stylesheet" href="resultadoEstilos.css">
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            background-color: #6fa4e4;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 26px;
+            font-weight: bold;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            transition-duration: 0.5s;
+        }
+
+        button:hover {
+            background-color: #477cbd;
+        }
+
+        div {
+            background-color: rgb(209, 209, 209);
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            width: 500px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>El resultado es:</h1>
+        <h2>xr(6) = 5</h2>
+    </div>
+
+    <table id="customers">
+        <tr>
+            <td>Iteraciones</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>x1</td>
+            <td>1.33</td>
+        </tr>
+        <tr>
+            <td>x2</td>
+            <td>0.86</td>
+        </tr>
+        <tr>
+            <td>x3</td>
+            <td>0.31</td>
+        </tr>
+        <tr>
+            <td>x4</td>
+            <td>-0.82</td>
+        </tr>
+        <tr>
+            <td>x5</td>
+            <td>-25.33</td>
+        </tr>
+        <tr>
+            <td>x6</td>
+            <td>3.21</td>
+        </tr>
+        <tr>
+            <td>xr</td>
+            <td>5</td>
+        </tr>
+    </table>
+    <br>
+    <a href="../arranque.html">
+        <button>Regresar al menú</button>
+    </a>
+</body>
+
+</html>

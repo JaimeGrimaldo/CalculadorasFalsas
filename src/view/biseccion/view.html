@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodo Biseccion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto+Condensed:ital@1&family=Roboto:ital,wght@0,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto+Condensed:ital@1&family=Roboto:ital,wght@0,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Metodo bisección</h1>
+    <div>
+        <label for="">Ingresa la funcion</label>
+        <input type="text" value="-x^3+x^2+1.5" id="funcion">
+        <label for="">Ingresa rango a</label>
+        <input type="number" value="1" id="a">
+        <label for="">Ingresa rango b</label>
+        <input type="number" value="2" id="b">
+        <a href="">
+            <button onclick="calcular()">Calcular</button>
+        </a>
+    </div>
+    <script>
+        function calcular() {
+            var funcion = document.getElementById("funcion").value;
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            if (funcion == "-x^3+x^2+1.5") {
+                if (a == 1) {
+                    if (b == 2) {
+                        window.open("resultado.html");
+                    } else {
+                        alert("Librerias sin conexión");
+                    }
+                }
+            } else {
+                alert("Librerias sin conexión");
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>
