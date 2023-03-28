@@ -1,4 +1,4 @@
-# CalculadorasFalsas
+# Calculadoras preparadas
 Programa de emergencia
 
 ## Tecnologias usadas
